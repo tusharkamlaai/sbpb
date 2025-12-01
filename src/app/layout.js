@@ -12,7 +12,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "KBPB Packaging | Coming Soon",
+  title: "SBPB INFRA PVT LTD | Coming Soon",
   icons: {
     icon: "/logo.png",
   },
@@ -21,11 +21,11 @@ export const metadata = {
   keywords: "",
   // authors: [{ name: "Tushar Patle" }],
   openGraph: {
-    title: "KBPB Packaging | Coming Soon",
+    title: "SBPB INFRA PVT LTD | Coming Soon",
     description:
       "Our new website is on the way. Eco-friendly, customizable packaging solutions. Stay tuned for launch updates!",
     url: "https://www.sbpb.in/",
-    siteName: "KBPB Packaging",
+    siteName: "SBPB INFRA PVT LTD",
     type: "website",
   },
 };
