@@ -56,7 +56,7 @@ const page = () => {
           </div>
 
           <p className="text-[11px] text-slate-600 pt-4">
-            © {new Date().getFullYear()} SBPB Packaging. All rights reserved.
+            © {new Date().getFullYear()} SBPB INFRA PVT LTD. All rights reserved.
           </p>
         </div>
       </main>
