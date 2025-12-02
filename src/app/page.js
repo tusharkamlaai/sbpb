@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import logo from "../../public/logo.png";
 
 const page = () => {
   return (
@@ -11,12 +12,16 @@ const page = () => {
         <div className="max-w-md w-full text-center space-y-6">
           {/* Logo / Initials */}
           <div className="mx-auto flex  items-center justify-center ">
-            <Image
-              src="/logo.png"
-              width={150}
-              height={150}
-              alt="Picture of the author"
-            />
+            {logo ? (
+              <Image
+                src={logo}
+                width={150}
+                height={150}
+                alt="Picture of the author"
+              />
+            ) : (
+              "Logo Loading..."
+            )}
           </div>
 
           {/* Main Heading */}
@@ -56,7 +61,8 @@ const page = () => {
           </div>
 
           <p className="text-[11px] text-slate-600 pt-4">
-            © {new Date().getFullYear()} SBPB INFRA PVT LTD. All rights reserved.
+            © {new Date().getFullYear()} SBPB INFRA PVT LTD. All rights
+            reserved.
           </p>
         </div>
       </main>
